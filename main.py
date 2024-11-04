@@ -1,4 +1,8 @@
 class Dog():
+
+  # Class Object Attribute - Same for every instance of the class
+  species = "mammal"
+
   def __init__(self,breed, name, spots):
     self.breed = breed 
     self.name = name
