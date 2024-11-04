@@ -6,7 +6,7 @@ class Dog():
     self.name = name 
 
   def speak(self):
-    return self.name + "says woof!"
+    return self.name + " says woof!"
   
 
 class Cat():
@@ -15,4 +15,12 @@ class Cat():
     self.name = name 
 
   def speak(self):
-    return self.name + "says meow!"
+    return self.name + " says meow!"
+
+
+chopper = Dog('Chopper')
+garfield = Cat('Garfield')
+
+
+print(chopper.speak())
+print(garfield.speak())
