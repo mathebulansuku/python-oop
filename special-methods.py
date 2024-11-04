@@ -8,3 +8,11 @@ class Book():
     self.title = title
     self.author = author
     self.pages = pages
+
+  def __str__(self):
+    return f"{self.title} by {self.author}"
+  
+
+buku = Book('Journey to manhood', 'Nsuku', 240)
+
+print(buku)
