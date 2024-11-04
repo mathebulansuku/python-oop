@@ -19,7 +19,8 @@ class Dog(Animal):
     Animal.__init__(self)
     print('Dog is created')
 
+  def who_am_i(self):
+    print('I am a dog!')
+
 
 my_dog = Dog()
-
-my_dog.
