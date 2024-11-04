@@ -1,0 +1,1 @@
+# Special methods - Allow us to use some built in operations in python such as length or the print function with our own user created object.
