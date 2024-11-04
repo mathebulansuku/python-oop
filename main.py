@@ -9,11 +9,18 @@ class Dog():
 
     #Spots is a boolean
     self.spots = spots
-# Attributes breed, name , spots
-#We take in an argument breed, name , spots
-#Assign it using self.attribute_name/argument
+  # Attributes breed, name , spots
+  #We take in an argument breed, name , spots
+  #Assign it using self.attribute_name/argument
 
-my_dog = Dog(breed='Unknown', name="Chopper",spots=False)
+
+  # Methods - Operations or actions of the class
+  def bark(self):
+    print("Woof! Woof! my name is {}".format(self.name))
+
+my_dog = Dog(breed='Lab', name="Chopper",spots=False)
+
+my_dog.bark()
 
 
 print(my_dog.breed)
