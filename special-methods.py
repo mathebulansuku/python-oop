@@ -24,4 +24,3 @@ buku = Book('Journey to manhood', 'Nsuku', 240)
 print(buku)
 str(buku)
 len(buku)
-del buku
