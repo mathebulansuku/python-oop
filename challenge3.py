@@ -9,12 +9,12 @@ class Account():
     self.balance = balance
 
   def deposit(self,deposited_amount):
-    self.balance = self.balance + deposited_amount
+    self.balance += deposited_amount
 
   def withdrawal(self,withdrawal_amount):
 
     if self.balance >= withdrawal_amount:
-      self.balance = self.balance - withdrawal_amount
+      self.balance -= withdrawal_amount
     else:
       print ("Insufficient funds to withdraw requested amount")
 
