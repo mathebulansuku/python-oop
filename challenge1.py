@@ -22,5 +22,13 @@ class Line:
       return (y2-y1)/(x2-x1)
   
 
-  a1 = (3,2)
-  a2 = (8,10)
+
+
+a1 = (3,2)
+a2 = (8,10)
+
+
+myline = Line(a1,a2)
+
+print(myline.distance())
+print(myline.slope())
